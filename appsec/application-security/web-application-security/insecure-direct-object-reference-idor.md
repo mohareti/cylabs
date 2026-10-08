@@ -1,0 +1,13 @@
+# Insecure Direct Object Reference (IDOR)
+
+**IDOR (Insecure Direct Object Reference)** is a security vulnerability that occurs when an application provides direct access to objects or data based on user-supplied input, such as input from a URL or form parameter, without proper authorization checks. In other words, an attacker can manipulate these references to access unauthorized data or objects.
+
+Here's an explanation of IDOR with examples:
+
+**Example 1 - Unauthorized File Access:** Suppose a web application allows users to view their profile pictures by navigating to a URL like `https://example.com/profile?username=johndoe`. In this case, the `username` parameter is used to retrieve the profile picture associated with the provided username. If the application doesn't perform proper authorization checks, an attacker could change the `username` parameter to access other users' profile pictures. For example, by changing the URL to `https://example.com/profile?username=malicioususer`, the attacker may access the profile picture of a user they are not authorized to view.
+
+**Example 2 - Viewing Other Users' Data:** Consider a banking application where users can view their account details by logging in and navigating to their account page. The URL might look like `https://bankapp.com/account?account_id=12345`. If the application doesn't properly validate the user's session or authorization, an attacker could manipulate the `account_id` parameter to access other users' account details. By changing the URL to `https://bankapp.com/account?account_id=67890`, the attacker may view someone else's account information.
+
+**Example 3 - Editing Other Users' Records:** In a web-based content management system (CMS), users with proper authorization can edit their articles by visiting a URL like `https://cmsapp.com/edit?article_id=123`. If the application fails to check if the user has permission to edit the specified article, an attacker could modify the `article_id` parameter to edit articles that belong to other users. By changing the URL to `https://cmsapp.com/edit?article_id=456`, the attacker may edit someone else's article.
+
+To prevent IDOR vulnerabilities, developers should implement strong access controls and ensure that users can only access or manipulate objects and data for which they have legitimate permissions. Access should be determined on the server side, and the application should validate the user's identity, session, and authorization before granting access to any resource. Additionally, developers should avoid using user-supplied input as the sole means of referencing objects or data without proper checks and validation.
