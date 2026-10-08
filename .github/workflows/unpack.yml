@@ -1,0 +1,35 @@
+name: Unpack CyLabs bundle
+
+on:
+  push:
+    paths: ["_bundle/bundle.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write files from bundle
+        run: |
+          python3 - <<'PY'
+          import json, os
+          b = json.load(open('_bundle/bundle.json', encoding='utf-8'))
+          for p, c in b.items():
+              assert not p.startswith(('/', '..')) and '/../' not in p
+              d = os.path.dirname(p)
+              if d: os.makedirs(d, exist_ok=True)
+              with open(p, 'w', encoding='utf-8') as f: f.write(c)
+          print(len(b), 'files written')
+          PY
+          git rm -rq --ignore-unmatch _bundle _export
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Reorganize CyLabs notes into new structure"
+          git push
