@@ -7,7 +7,7 @@ description: "A practitioner's notebook on cybersecurity, AI security, cloud and
 CyLabs is my working notebook: notes, explainers and field-tested commands from 15 years across security architecture, engineering and operations. It covers everything from networking basics to cloud posture management, threat hunting and the security of AI systems.
 
 {% hint style="success" %}
-**304 written pages** across 10 sections. Pages marked 🚧 are on the roadmap and will be filled in over time.
+**319 written pages** across 10 sections. Pages marked 🚧 are on the roadmap and will be filled in over time.
 {% endhint %}
 
 ## Sections
@@ -16,12 +16,12 @@ CyLabs is my working notebook: notes, explainers and field-tested commands from 
 |---|---|---|
 | 🧱 [Foundations](foundations/README.md) | Networking, OS, programming, labs, careers | 52 |
 | 📜 [Governance, Risk & Compliance](grc/README.md) | Risk, policy, frameworks, architecture | 33 |
-| 🎯 [Offensive Security & Assessment](offensive/README.md) | Recon to reporting, purple teaming, social engineering | 65 |
+| 🎯 [Offensive Security & Assessment](offensive/README.md) | Recon to reporting, purple teaming, social engineering | 71 |
 | 🧪 [Application Security](appsec/README.md) | Web, API, mobile & IoT app security, bug bounty | 25 |
 | ☁️ [Cloud, DevSecOps & Platforms](cloud/README.md) | Cloud security, DevSecOps, Kubernetes, containers | 48 |
 | 🛡️ [Security Operations & Defense](secops/README.md) | SOC, threat hunting, IR, forensics, malware analysis | 43 |
 | 📡 [Specialized Domains](specialized/README.md) | Mobile, IoT/OT/SCADA, reverse engineering | 7 |
-| 🤖 [AI, ML & Data Science](ai/README.md) | AI security, LLM risks, ML for security analytics | 20 |
+| 🤖 [AI, ML & Data Science](ai/README.md) | AI security, LLM risks, ML for security analytics | 29 |
 | ✈️ [Industry Case Studies](industry/README.md) | Aviation security | 4 |
 | 📚 [Resources](resources/README.md) | Blogs, news, certifications, communities | 7 |
 

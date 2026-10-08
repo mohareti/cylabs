@@ -81,7 +81,7 @@ Each type of security assessment serves a specific purpose and is part of a comp
 * ✅ [Planning and Scoping](planning-and-scoping/README.md) · 2/4 pages written
 * ✅ [Reconnaissance](reconnaissance/README.md) · 17/42 pages written
 * ✅ [Enumeration](enumeration/README.md) · 1/38 pages written
-* ✅ [Vulnerability Assessment and Management](vulnerability-assessment-and-management/README.md) · 7/21 pages written
+* ✅ [Vulnerability Assessment and Management](vulnerability-assessment-and-management/README.md) · 13/21 pages written
 * ✅ [Exploitation](exploitation/README.md) · 17/71 pages written
 * ✅ [Lateral Movement](lateral-movement/README.md) · 2/15 pages written
 * ✅ [Post Exploitation](post-exploitation/README.md) · 1/17 pages written

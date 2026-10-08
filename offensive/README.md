@@ -11,7 +11,7 @@ The full assessment lifecycle, from scoping and reconnaissance through exploitat
 | Topic | Pages written |
 |---|---|
 | ✅ [Offensive Security Overview](offensive-security-overview/README.md) | 1 / 2 |
-| ✅ [Security Assessment Lifecycle](security-assessment-lifecycle/README.md) | 49 / 210 |
+| ✅ [Security Assessment Lifecycle](security-assessment-lifecycle/README.md) | 55 / 210 |
 | ✅ [Attack Surface Management](attack-surface-management/README.md) | 2 / 2 |
 | ✅ [Purple Teaming](purple-teaming/README.md) | 1 / 5 |
 | ✅ [Social Engineering](social-engineering/README.md) | 2 / 15 |
@@ -20,5 +20,5 @@ The full assessment lifecycle, from scoping and reconnaissance through exploitat
 | ✅ [Field Notes & Tradecraft](field-notes-and-tradecraft/README.md) | 8 / 9 |
 
 {% hint style="info" %}
-✅ written · 🚧 planned. This section has **65 written pages** out of 262 planned.
+✅ written · 🚧 planned. This section has **71 written pages** out of 262 planned.
 {% endhint %}

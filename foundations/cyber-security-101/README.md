@@ -219,7 +219,7 @@ Understanding this shared responsibility model is crucial for ensuring security 
 
 By adopting Security by Design principles, including practices like Shift Left and Shared Responsibility, organizations can significantly improve their overall security posture and develop more secure and reliable software applications.
 
-Absolutely! The Keep It Simple and Stupid (KISS) principle applies very well to cybersecurity. Here's the gist in a way that's easy to understand:
+The Keep It Simple and Stupid (KISS) principle applies very well to cybersecurity. Here's the gist in a way that's easy to understand:
 
 ## Don't make security complicated!
 

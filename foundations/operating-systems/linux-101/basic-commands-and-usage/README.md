@@ -6,7 +6,7 @@ description: "Linux, with its robust set of commands, is a playground for those 
 
 Linux, with its robust set of commands, is a playground for those who crave control over their computing environment. Whether you are a system administrator, a developer, or a cybersecurity enthusiast, mastering Linux commands is an essential skill. Let's delve into some of the fundamental commands and their usage in various scenarios, including network communication, file manipulation, system management, and security testing.
 
-Certainly, let's go through each of the Linux commands listed and explain their basic usage:
+let's go through each of the Linux commands listed and explain their basic usage:
 
 1. **`ls`**: This command lists the contents of a directory. If no directory is specified, it lists the contents of the current directory. For example, `ls /home` will list all files and directories in the `/home` directory.
 2. **`pwd`**: Stands for "print working directory". This command prints the full pathname of the current working directory.
